@@ -1,6 +1,7 @@
 import { createRouter, createWebHashHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import Login from '../views/Login.vue'
+import EleLogin from '../views/EleLogin.vue'
 
 const routes = [
   {
@@ -19,6 +20,10 @@ const routes = [
   {
     path: '/login',
     component: Login
+  },
+  {
+    path: '/ele-login',
+    component: EleLogin
   }
 ]
 
